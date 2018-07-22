@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name custom-pin-header)(type KiCad)(uri "$(KIPRJMOD)/custom-pin-header.pretty")(options "")(descr ""))
+  (lib (name silkscreens)(type KiCad)(uri "$(KIPRJMOD)/silkscreens")(options "")(descr ""))
+)

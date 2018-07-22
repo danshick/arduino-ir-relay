@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/dws/projects/arduino-ir-relay/arduino-ir-relay.sch</source>
+    <date>Fri 20 Jul 2018 11:04:28 PM EDT</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>arduino-ir-relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="ATMEGA1">
+      <value>ATMEGA328P-PU</value>
+      <footprint>Housings_DIP:DIP-28_W15.24mm_Socket</footprint>
+      <libsource lib="atmel" part="ATMEGA328P-PU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4A6FCB</tstamp>
+    </comp>
+    <comp ref="CLK1">
+      <value>16Mhz</value>
+      <footprint>Crystals:Crystal_HC49-U_Vertical</footprint>
+      <libsource lib="device" part="Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4A7232</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22p</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4A7267</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4A72B6</tstamp>
+    </comp>
+    <comp ref="VREF1">
+      <value>L7805</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-3_Vertical</footprint>
+      <libsource lib="regul" part="L7805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4A72E4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4A7333</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22p</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4AD7D6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4AD7FF</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4AF6E4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4B1C18</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x03_Row_Letter_First</value>
+      <footprint>custom-pin-header:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_02x03_Row_Letter_First"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4DE6E6</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x03_Row_Letter_First</value>
+      <footprint>custom-pin-header:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_02x03_Row_Letter_First"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4DE791</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x03_Row_Letter_First</value>
+      <footprint>custom-pin-header:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_02x03_Row_Letter_First"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4DE7D2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x03_Row_Letter_First</value>
+      <footprint>custom-pin-header:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_02x03_Row_Letter_First"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4DE81B</tstamp>
+    </comp>
+    <comp ref="J0">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_RND:TerminalBlock_RND_205-00067_1x02_P7.50mm_Horizontal</footprint>
+      <libsource lib="conn" part="Screw_Terminal_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4E948A</tstamp>
+    </comp>
+    <comp ref="IR1">
+      <value>TSOP343xx</value>
+      <footprint>Opto-Devices:IRReceiver_Vishay_MOLD-3pin</footprint>
+      <libsource lib="opto" part="TSOP343xx"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B52A736</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATMEGA168A-PU">
+      <aliases>
+        <alias>ATMEGA48A-PU</alias>
+        <alias>ATMEGA48PA-PU</alias>
+        <alias>ATMEGA88A-PU</alias>
+        <alias>ATMEGA88PA-PU</alias>
+        <alias>ATMEGA168PA-PU</alias>
+        <alias>ATMEGA328-PU</alias>
+        <alias>ATMEGA328P-PU</alias>
+      </aliases>
+      <description>PDIP28 Narrow, 16k Flash, 1kB SRAM, 512B EEPROM</description>
+      <docs>http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf</docs>
+      <footprints>
+        <fp>28DIP-ELL600</fp>
+        <fp>28dip600</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA168A-PU</field>
+        <field name="Footprint">DIL28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="2" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="3" name="(PCINT17/TXD)PD1" type="BiDi"/>
+        <pin num="4" name="(PCINT18/INT0)PD2" type="BiDi"/>
+        <pin num="5" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="6" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="(PCINT6/XTAL1/TOSC1)PB6" type="BiDi"/>
+        <pin num="10" name="(PCINT7/XTAL2/TOSC2)PB7" type="BiDi"/>
+        <pin num="11" name="(PCINT21/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="12" name="(PCINT22/OC0A/AIN0)PD6" type="BiDi"/>
+        <pin num="13" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="14" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="15" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="16" name="(PCINT2/OC1B/~SS~)PB2" type="BiDi"/>
+        <pin num="17" name="(PCINT3/OC2A/MOSI)PB3" type="BiDi"/>
+        <pin num="18" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="19" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="BiDi"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="24" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT13/SCL/ADC5)PC5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_02x03_Row_Letter_First">
+      <description>Generic connector, double row, 02x03, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Row_Letter_First</field>
+      </fields>
+      <pins>
+        <pin num="a1" name="Pin_a1" type="passive"/>
+        <pin num="a2" name="Pin_a2" type="passive"/>
+        <pin num="a3" name="Pin_a3" type="passive"/>
+        <pin num="b1" name="Pin_b1" type="passive"/>
+        <pin num="b2" name="Pin_b2" type="passive"/>
+        <pin num="b3" name="Pin_b3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*Terminal*Block*:*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="opto" part="TSDP341xx">
+      <aliases>
+        <alias>TSDP343xx</alias>
+        <alias>TSOP341xx</alias>
+        <alias>TSOP343xx</alias>
+        <alias>TSOP345xx</alias>
+        <alias>TSOP41xx</alias>
+        <alias>TSOP43xx</alias>
+        <alias>TSOP45xx</alias>
+      </aliases>
+      <description>IR Receiver Modules for Data Transmission</description>
+      <docs>http://www.vishay.com/docs/82667/tsdp341.pdf</docs>
+      <footprints>
+        <fp>IRReceiver?Vishay?MOLD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSDP341xx</field>
+        <field name="Footprint">Opto-Devices:IRReceiver_Vishay_MOLD-3pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vs" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="opto">
+      <uri>/usr/share/kicad/library/opto.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>/usr/share/kicad/library/atmel.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(ATMEGA1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="ATMEGA1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(ATMEGA1-Pad9)">
+      <node ref="ATMEGA1" pin="9"/>
+      <node ref="CLK1" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(ATMEGA1-Pad10)">
+      <node ref="CLK1" pin="1"/>
+      <node ref="ATMEGA1" pin="10"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="5" name="PWR">
+      <node ref="VREF1" pin="1"/>
+      <node ref="J0" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(ATMEGA1-Pad4)">
+      <node ref="ATMEGA1" pin="4"/>
+      <node ref="IR1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(ATMEGA1-Pad18)">
+      <node ref="ATMEGA1" pin="18"/>
+    </net>
+    <net code="8" name="Net-(ATMEGA1-Pad19)">
+      <node ref="ATMEGA1" pin="19"/>
+    </net>
+    <net code="9" name="Net-(ATMEGA1-Pad2)">
+      <node ref="ATMEGA1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(ATMEGA1-Pad17)">
+      <node ref="ATMEGA1" pin="17"/>
+    </net>
+    <net code="11" name="Net-(ATMEGA1-Pad27)">
+      <node ref="ATMEGA1" pin="27"/>
+    </net>
+    <net code="12" name="Net-(ATMEGA1-Pad28)">
+      <node ref="ATMEGA1" pin="28"/>
+    </net>
+    <net code="13" name="Net-(ATMEGA1-Pad26)">
+      <node ref="ATMEGA1" pin="26"/>
+    </net>
+    <net code="14" name="G">
+      <node ref="C3" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="ATMEGA1" pin="8"/>
+      <node ref="J3" pin="a3"/>
+      <node ref="J3" pin="b1"/>
+      <node ref="J4" pin="a3"/>
+      <node ref="J4" pin="b1"/>
+      <node ref="VREF1" pin="2"/>
+      <node ref="ATMEGA1" pin="22"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IR1" pin="2"/>
+      <node ref="J0" pin="2"/>
+      <node ref="J1" pin="a3"/>
+      <node ref="J1" pin="b1"/>
+      <node ref="J2" pin="a3"/>
+      <node ref="J2" pin="b1"/>
+    </net>
+    <net code="15" name="S3">
+      <node ref="J2" pin="b3"/>
+      <node ref="ATMEGA1" pin="11"/>
+    </net>
+    <net code="16" name="Net-(ATMEGA1-Pad3)">
+      <node ref="ATMEGA1" pin="3"/>
+    </net>
+    <net code="17" name="S1">
+      <node ref="J1" pin="b3"/>
+      <node ref="ATMEGA1" pin="5"/>
+    </net>
+    <net code="18" name="S2">
+      <node ref="J1" pin="a1"/>
+      <node ref="ATMEGA1" pin="6"/>
+    </net>
+    <net code="19" name="S4">
+      <node ref="ATMEGA1" pin="12"/>
+      <node ref="J2" pin="a1"/>
+    </net>
+    <net code="20" name="S5">
+      <node ref="ATMEGA1" pin="13"/>
+      <node ref="J3" pin="b3"/>
+    </net>
+    <net code="21" name="Net-(ATMEGA1-Pad23)">
+      <node ref="ATMEGA1" pin="23"/>
+    </net>
+    <net code="22" name="S6">
+      <node ref="J3" pin="a1"/>
+      <node ref="ATMEGA1" pin="14"/>
+    </net>
+    <net code="23" name="Net-(ATMEGA1-Pad24)">
+      <node ref="ATMEGA1" pin="24"/>
+    </net>
+    <net code="24" name="S7">
+      <node ref="J4" pin="b3"/>
+      <node ref="ATMEGA1" pin="15"/>
+    </net>
+    <net code="25" name="Net-(ATMEGA1-Pad25)">
+      <node ref="ATMEGA1" pin="25"/>
+    </net>
+    <net code="26" name="S8">
+      <node ref="J4" pin="a1"/>
+      <node ref="ATMEGA1" pin="16"/>
+    </net>
+    <net code="27" name="5V">
+      <node ref="R2" pin="1"/>
+      <node ref="ATMEGA1" pin="7"/>
+      <node ref="IR1" pin="3"/>
+      <node ref="VREF1" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J3" pin="b2"/>
+      <node ref="ATMEGA1" pin="20"/>
+      <node ref="ATMEGA1" pin="21"/>
+      <node ref="J1" pin="b2"/>
+      <node ref="J1" pin="a2"/>
+      <node ref="J2" pin="b2"/>
+      <node ref="J2" pin="a2"/>
+      <node ref="J4" pin="a2"/>
+      <node ref="J4" pin="b2"/>
+      <node ref="J3" pin="a2"/>
+    </net>
+  </nets>
+</export>
